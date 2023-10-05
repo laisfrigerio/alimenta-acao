@@ -1,0 +1,33 @@
+.hero {
+  background-image: url(../../imgaes/hero.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 800px;
+}
+
+.hero .container-hero {
+  margin: 0 auto;
+  max-width: 1172px;
+  width: 100%;
+}
+
+.hero .hero-box-left {
+  padding: 200px 0 0;
+  width: 500px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 100%;
+}
+
+.hero .hero-description {
+  color: var(--gray-400);
+  font-size: 17px;
+  margin-top: 16px;
+  width: 450px;
+}
+
+.hero-logo {
+  margin-bottom: 24px;
+}

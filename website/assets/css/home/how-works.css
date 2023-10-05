@@ -1,0 +1,54 @@
+.how-works {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.container-how-works {
+  position: relative;
+  width: 100%;
+}
+
+.how-works .background {
+  background-color: var(--yellow-200);
+  border-top-left-radius: 400px;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  width: 95%;
+  z-index: -1;
+}
+
+.how-works .box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-right: 100px;
+  max-width: 710px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.how-works .box h2 {
+  font-size: 48px;
+}
+
+.how-works h2,
+.how-works h3 {
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.how-works h2 {
+  margin-top: 16px;
+}
+
+.how-works h3 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.how-works .how-works-sub-description {
+  color: var(--gray-400);
+  margin-top: 24px;
+}

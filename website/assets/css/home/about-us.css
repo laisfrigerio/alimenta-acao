@@ -1,0 +1,61 @@
+.about-us {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.container-about-us {
+  position: relative;
+  width: 100%;
+}
+
+.about-us .background {
+  background-color: var(--green-300);
+  border-top-right-radius: 400px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 95%;
+  z-index: -1;
+}
+
+.about-us .box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.about-us .box h2 {
+  font-size: 48px;
+}
+
+.about-us .box strong {
+  position: relative;
+}
+
+.about-us .box strong::after {
+  border-bottom: 9px solid var(--green-700);
+  bottom: 8px;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.about-us .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 72px 0;
+}
+
+.about-us .list .card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px #c2c2c2;
+  padding: 16px;
+  width: 300px;
+}

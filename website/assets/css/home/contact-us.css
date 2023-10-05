@@ -1,0 +1,57 @@
+.contact-us {
+  background-color: var(--green-700);
+  margin-top: 60px;
+  width: 100%;
+}
+
+.container-contact-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 992px;
+  padding: 40px 20px;
+}
+
+.contact-us article {
+  width: 400px;
+}
+
+.contact-us h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+
+.contact-us h2,
+.contact-us h3,
+.contact-us p {
+  color: var(--white);
+}
+
+.contact-us h3 {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 24px 0 8px 0;
+  text-transform: uppercase;
+}
+
+.contact-us p {
+  font-weight: lighter;
+  margin-top: 16px;
+}
+
+.contact-us button {
+  background-color: var(--white);
+  color: var(--green-700);
+  font-weight: bold;
+  padding: 12px 16px;
+  text-transform: uppercase;
+}
+
+.contact-us .address {
+  position: relative;
+}
+
+.contact-us img {
+  width: 400px;
+  height: auto;
+}
